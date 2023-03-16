@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - this program prints a line with puts function without printf
- * Return: 0  
- */
+* main - this program prints a line with puts function without printf
+* Return: 0  
+*/
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
