@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - main block
+ * main - program that display data with put function
  * Return: 0
  */
 int main(void)
