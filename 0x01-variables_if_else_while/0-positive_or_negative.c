@@ -1,9 +1,11 @@
-#include <stdlib.h>
+#include <stdio.h>
 #include <time.h>
 /* 
- * auth : shadi ahmed 
+ *  
  *
- *  main - Prints a random number and states whether its postive,negative or zero 
+ *  main - Prints a random number and states whether its postive,negative or zero
+ *
+ *  Return: 0 
  */
 int main(void)
 {
