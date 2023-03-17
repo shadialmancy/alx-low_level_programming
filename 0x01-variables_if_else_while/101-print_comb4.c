@@ -1,13 +1,8 @@
-/*
- * File: 101-print_comb4.c
- * Auth: Brennan D Baraban
- */
-
 #include <stdio.h>
 
 /**
  * main - Prints all possible combinations of three different digits,
- *        in ascending order.
+ *	  in ascending order.
  *
  * Return: Always 0.
  */
