@@ -2,13 +2,14 @@
 
 /**
  * main - Prints all possible combinations of two different digits,
- *        in ascending order, separated by a comma followed by a space.
+ *        in ascending order.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	int num1, num2;
+	int num1;
+	int num2;
 
 	for (num1 = 0; num1 < 9; num1++)
 	{

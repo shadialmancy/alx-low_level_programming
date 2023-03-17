@@ -1,12 +1,21 @@
+/*
+ * File: 101-print_comb4.c
+ * Auth: Brennan D Baraban
+ */
+
 #include <stdio.h>
+
 /**
- * main - print numbers from 00 to 99.
-(*
- * Return: 0 on success
+ * main - Prints all possible combinations of three different digits,
+ *        in ascending order.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
-	int num1, num2, num3;
+	int num1 = 0;
+	int num2 = 0;
+	int num3 = 0;
 
 	for (num1 = 0; num1 < 8; num1++)
 	{
