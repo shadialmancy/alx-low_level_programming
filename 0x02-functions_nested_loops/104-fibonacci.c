@@ -20,9 +20,9 @@ int main(void)
 		printf("%lu, ", z);
 	}
 	m = x % 1000;
-	i = x / 1000;
+	x = x / 1000;
 	n = y % 1000;
-	j = y / 1000;
+	y = y / 1000;
 	while (count <= 98)
 	{
 		carry = (m + n) / 1000;
