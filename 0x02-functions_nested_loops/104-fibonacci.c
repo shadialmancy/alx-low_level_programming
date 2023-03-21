@@ -17,7 +17,7 @@ int main(void)
 		z = x + y;
 		x = y;
 		y = z;
-		printf("%lu, ", k);
+		printf("%lu, ", z);
 	}
 	m = x % 1000;
 	i = x / 1000;
@@ -33,9 +33,9 @@ int main(void)
 		x = y;
 		y = z;
 		if (p >= 100)
-			printf("%lu%lu", k, p);
+			printf("%lu%lu", z, p);
 		else
-			printf("%lu0%lu", k, p);
+			printf("%lu0%lu", z, p);
 		if (count != 98)
 			printf(", ");
 		count++;
