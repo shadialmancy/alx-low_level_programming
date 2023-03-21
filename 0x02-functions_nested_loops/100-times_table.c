@@ -1,23 +1,23 @@
 #include "main.h"
 /**
  * print_times_table - prints the n time table, starting with 0
- * @n number of the times table
+ * @n: number of the times table
  */
-void printt_times_table(int n)
+void print_times_table(int n)
 {
 	int x, y, z;
 
-	if (n >= 0 && n <=15)
+	if (n >= 0 && n <= 15)
 	{
 		for (x = 0; x <= n; x++)
 		{
-			for ( y=0; y <= n; y++)
+			for (y = 0; y <= n; y++)
 			{
 				z = x * y;
-				if (z == 0)
+				if (y == 0)
 				{
 					_putchar(z + '0');
-				} else if (z < 10 && z != 0)
+				} else if (z < 10 && y != 9)
 				{
 					_putchar(',');
 					_putchar(' ');
@@ -44,4 +44,3 @@ void printt_times_table(int n)
 		}
 	}
 }
-					
