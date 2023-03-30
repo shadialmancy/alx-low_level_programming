@@ -7,7 +7,7 @@
 
 char *leet(char *s)
 {
-	int count = 0, 
+	int count = 0;
 	int i;
 	int upper_letters[] = {65, 69, 79, 84, 76};
 	int lower_letters[] = {97, 101, 111, 116, 108};
